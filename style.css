@@ -1,0 +1,230 @@
+
+nav{
+    width: 100vw;
+    height: 75px;
+    line-height: 75px;
+    padding: 0px 96px;
+    position: relative;
+    background-color: black;
+}
+
+nav li{
+    display: inline-block;
+    list-style: none;
+}
+
+nav li a{
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 10px 40px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: -10px;
+}
+
+nav li a:hover{
+    color: darkgrey;
+    transition: all 0.4s ease 0s;
+}
+
+
+.bg{
+    background-image: url(images/bg2.png);
+    background-size: cover;
+    height: 100vh;
+     background-position: center;
+    background-repeat: no-repeat;
+
+    width: 100vw;
+
+    
+}
+
+
+.imgtext{
+    position: center;
+    top: 25%;
+    color: black;
+    padding-right: 8em;
+    padding-left: 1em;
+    padding-top: 4em;
+    font-size: 10vh;
+    font-weight: bold;
+}
+
+
+.box{
+    border: 2px solid gold; 
+    border-radius: 0px 30px 0px 30px ;
+    height: 12em;
+    margin: 3em;
+    padding: 2em;
+
+}
+
+.box p1{
+    font-size: 3em;
+    color: goldenrod;
+    font-weight: bolder;
+    text-shadow: 2px 5px gold;
+}
+
+.box p2{
+    text-align: center;
+    font-size: 1.5em;
+}
+
+footer{
+   background-color: black; 
+   clear:both;
+}
+
+.footer-row{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+.footer-left,.footer-right{
+    flex-basis: 45%;
+    padding: 5px;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    color: white;
+    
+}
+.footer-right{
+    text-align: right;
+}
+.footer-row p1{
+   margin: 5px 0;
+    
+}
+.footer-row p2{
+   line-height: 35px;
+}
+    
+.title-text{
+    font-size: 2em;
+    text-align: center;
+    color: goldenrod;
+    text-shadow: 2px 4px gold;
+}
+.managebox{
+    float: left;
+    text-align: left;
+    width: 60%;
+    height: 80%;
+    
+    }   
+
+.managebox h1{
+    font-size: 6vh;
+    text-align: center;
+    color: goldenrod;
+    text-shadow: 2px 4px gold;
+}
+   
+.managebox h2{
+    font-size: 4vh;
+    text-align: center;
+    color: goldenrod;
+    text-shadow: 2px 3px gold;
+}
+.managebox p{
+    padding: 3vh;
+    text-align: left;
+    font-size: 3vh;
+}
+
+
+.column{
+    float: left;
+    width: 10%;
+    padding: 20px;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+    
+
+.list li{
+    font-size: 20px;
+}
+
+.text p{
+    font-size: 20px;
+}
+
+.text{
+    padding: 10px;
+}
+
+    
+.team{
+    color: goldenrod;
+    text-shadow: 2px 3px gold;
+    font-size: 3em;
+    font-weight: bolder;
+}   
+    
+#f{
+    border-width: thick;
+}
+
+.para{
+    padding: 20px;
+}
+
+.para p{
+    font-size: 20px;
+}
+
+.para p6,.text h1{ 
+    font-size: 30px;
+    color: goldenrod;
+    text-shadow: 1px 2px gold;
+}
+
+.f{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box2{
+    position: relative;
+    height: 400px;
+    width: 30em;
+    background: goldenrod;
+    border-radius: 8px;
+    padding-left: 30px;
+    padding-top: 30px;
+    margin-bottom: 100px;
+}
+
+
+label{
+    float: left;
+    width: 8em;
+    text-align: right;
+}
+
+input,select, textarea{
+    margin-left: 1em;
+    margin-bottom: 1em;
+}
+
+textarea{
+    width: 20em;
+    height: 5em;
+}  
+
+#button{
+    margin-left: 11em;
+}
